@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COLLAB</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -80,13 +81,29 @@
           </div>
           <div class="group_computer">
             <img
+              data-aos="fade-up"
+              class="Desktop"
+              src="./fotos/Desktop.png"
+              alt="Desktop"
+            />
+            <img
+              data-aos="fade-left"
               class="video_play"
               src="./fotos/video_play.png"
               alt="video_play"
             />
-            <img class="cotact" src="./fotos/cotact.png" alt="foto" />
-            <img class="Mouse" src="./fotos/Mouse.png" alt="mouse" />
-            <img class="Desktop" src="./fotos/Desktop.png" alt="Desktop" />
+            <img
+              data-aos="fade-right"
+              class="cotact"
+              src="./fotos/cotact.png"
+              alt="foto"
+            />
+            <img
+              class="Mouse"
+              data-aos="fade-left"
+              src="./fotos/Mouse.png"
+              alt="mouse"
+            />
           </div>
         </div>
       </div>
@@ -97,5 +114,9 @@
         <h2>The world’s most powerful design tool.</h2>
       </div>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

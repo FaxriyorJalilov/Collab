@@ -358,6 +358,9 @@ body {
     margin-top: -76px;
     left: 100px;
   }
+  .header_video_see p {
+    display: none;
+  }
   .header_video {
     /* width: 84px; */
     /* height: 64px; */
